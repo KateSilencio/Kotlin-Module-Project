@@ -1,3 +1,8 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import java.util.Scanner
+
+val scanner = Scanner(System.`in`)
+
+fun main() {
+    val menu = Menu()
+    menu.startMainLogic()
 }
